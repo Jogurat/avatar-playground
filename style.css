@@ -1,0 +1,33 @@
+.img-container {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.hat,
+.body-head,
+.eyes,
+.mouth,
+.shirt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.mouth {
+  z-index: 4;
+}
+
+.eyes {
+  z-index: 3;
+}
+
+.hat {
+  z-index: 4;
+}
+
+.body-head {
+  z-index: 2;
+}
